@@ -1,0 +1,41 @@
+name: agenda_medonha
+description: "Organize os seus estudos!"
+
+publish_to: 'none'
+
+version: 1.0.2
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.4
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+  share_plus: ^12.0.1
+  file_picker: ^10.3.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "icon.png"
+  adaptive_icon_background: "#121212"
+  adaptive_icon_foreground: "icon.png"
+  web:
+    generate: true
+    image_path: "icon.png"
+    background_color: "#ffffff"
+    theme_color: "#64B5F6"
